@@ -1,0 +1,24 @@
+[[Model]]
+    Model(func)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 62
+    # data points      = 6
+    # variables        = 3
+    chi-square         = 1207.38576
+    reduced chi-square = 402.461921
+    Akaike info crit   = 37.8267198
+    Bayesian info crit = 37.2019982
+[[Variables]]
+    a:      0.02279141 +/- 0.03312543 (145.34%) (init = 1)
+    b:     -315.507189 +/- 14.6156085 (4.63%) (init = 1)
+    gamma:  5.82833099 +/- 1.16492049 (19.99%) (init = 1)
+    P0:     0.1670113 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a, gamma) = -0.960
+    C(b, gamma) = 0.604
+    C(a, b)     = -0.453
+
+R-squared: 0.9866
+
+Weights_sameWeight: [1 1 1 1 1 1]
